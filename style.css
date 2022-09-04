@@ -1,0 +1,87 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: beige;
+    font-size: 30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.moon {
+    height: 3cm;
+    width: auto;
+}
+
+.right-link {
+    display: flex;
+    gap: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: darkblue;
+}
+
+.theme {
+    display: flex;
+    background-color: beige;
+    justify-content: space-around;
+}
+
+/* .theme .left-link {
+    display: flex;
+    flex-direction: column;
+    width: 14in;
+} */
+
+.theme-image{
+   margin-right: 100px;
+}
+
+.left-linker{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    width: 600px;
+    margin-left: 100px;
+}
+
+.left-linker h3 {
+    font-size: 48px;
+    font-weight: 800px;
+    font-family:monospace;
+    color: darkblue;
+    /* text-align: center; */
+    margin: 20px 0 20px 0;
+}
+
+.left-linker h4 {
+    font-size: 24px;
+    color: darkblue;
+    margin: 0 0 20px 0;
+}
+
+.left-linker button {
+    align-items: flex-start;
+    width: 120px;
+    padding: 20px;
+    font-size: large;
+    font-weight: bold;
+    background-color: #3882F6;
+    color:aliceblue
+
+}
+
+.header .left-link {
+    display: flex;
+}
+
+.header .left-link h3 {
+    font-family: monospace;
+    color: rgb(24, 24, 85);
+}
