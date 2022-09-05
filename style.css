@@ -33,12 +33,6 @@ a {
     justify-content: space-around;
 }
 
-/* .theme .left-link {
-    display: flex;
-    flex-direction: column;
-    width: 14in;
-} */
-
 .theme-image{
    margin-right: 100px;
 }
@@ -56,7 +50,6 @@ a {
     font-weight: 800px;
     font-family:monospace;
     color: darkblue;
-    /* text-align: center; */
     margin: 20px 0 20px 0;
 }
 
@@ -84,4 +77,59 @@ a {
 .header .left-link h3 {
     font-family: monospace;
     color: rgb(24, 24, 85);
+}
+
+.why-choose-us h3 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.features {
+    display: flex;
+    justify-content:center;
+    gap: 70px; 
+}
+
+.card img {
+    object-fit: cover;
+}
+
+.card p {
+    max-width: 200px;
+    text-align: center;
+    border: 30px rebeccapurple;
+}
+
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 300px;
+    max-width: 800px;
+    font-style: italic;
+    font-size: 36px; 
+    flex-shrink: 0;
+}
+
+.quote {
+    margin-bottom: 0;
+}
+
+.quoter {
+    margin-top: 0;
+    margin-left: 700px;
+}
+
+.signup{
+    display: flex;
+    background-color: #3882F6;
+    color: aliceblue;
+    justify-content: center;
+}
+
+.footer{
+    color: beige;
+    display: flex;
+    justify-content: center;
+    color: black;
 }
