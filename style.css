@@ -127,7 +127,7 @@ a {
 .quote {
     margin-bottom: 0;
     width: 60%;
-    text-align: center;
+    text-align: left;
     /* justify-self: center; */
     align-self: center;
 }
