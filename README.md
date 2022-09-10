@@ -1,4 +1,4 @@
 # landing-page
 Create a landing page
 
-#image border not working
+Live Preview: https://sapienfrom2000s.github.io/landing-page/
